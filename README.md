@@ -12,9 +12,12 @@ ubuntu 16.04 LTS
 # 依赖
 openCV
 # 编译
-mkdir build
+mkdir build 
+
 cd build
+
 cmake ..
+
 make
 # 运行
 ./demo_mfcc_t
